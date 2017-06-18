@@ -1,3 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
 >> A .git file is creaetd and the repository (or file folder) is enabled to start tracking versions of files in the actual folder.
 
+How can you use the staging area to make sure you have one commit per logical change?
+>> The staging area will make sure I now which specific files that were changed and the git diff --staged will help show the specific changes to the actual file and what it contains.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+>> Especially when adding new features or logical parallel tracks to the design - adding branches would be very important!
+
+How do the diagrams help you visualize the branch structure?
+>> The branch structure may be complicated to remember, so running the git log --graph --oneline may help me see the origin of each. Remember that not all of these branches are reachable!
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+>> Merging two branches is the same as including fixes in an alternative branch. This should be done to ensure that you once more have only one file.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+>> Automatically merging maket it faster and it helpes to understand in detail which features have been changed. Doing this manually is a source of error that should be avoided if possible.
